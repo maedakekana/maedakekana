@@ -1,0 +1,49 @@
+*{
+    padding:0;
+    margin:0;
+}
+
+$tileWidth: 200px;
+$subtitleColor:#9C9797;
+
+#tile-container{
+    width:90%;
+    margin:60px auto 0;
+    position:relative;
+    
+    .tile{
+        padding-bottom:10px;
+        border-radius: 3px;
+        overflow: hidden;
+        width:tileWidth;
+        background-color;
+        ox-shadow: 0 0 6px rgba(0,0,0,0.4);
+        
+        position: abosolute;
+        
+        figure{
+            margin-bottom:10px;
+        }
+        
+        img{
+            width:100%;
+        }
+    }
+    
+    .content{
+        h2{
+            font-size: 20px;
+            color:$subtitleColor;
+            font-family:serif;
+            margin-bottom:0.3em;
+            padding: 0 0px;
+        }
+        
+        p{
+            font-size: 14px;
+            font-weight:normal;
+            padding:0 10px;
+        }
+    }
+}
+

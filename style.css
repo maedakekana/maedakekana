@@ -1,0 +1,522 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+#section_1 {
+    background-color: #FFF7D9;
+}
+
+#header {
+    background-color: #fff;
+    width: 100%;
+    height: 100px;
+    overflow: hidden;
+
+}
+
+#first {
+    overflow: hidden;
+}
+
+#first li {
+    float: left;
+    list-style-type: none;
+    margin-top: 2px;
+    text-align: right;
+}
+
+#first li a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #000;
+    display: block;
+    margin: 40px 60px 0px;
+    font-family: 'Noto Sans JP', sans-serif;
+    background: linear-gradient(transparent 70%, #06DC94 0%);
+    font-size: 25pxs;
+}
+
+#first a:hover {
+    color: #808080;
+}
+
+
+
+
+
+.main-visual {
+    background: url("img/sdgshero.jpg")0 0 no-repeat;
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+
+.wrapper {
+    width: 900px;
+    margin: auto;
+}
+
+#header h1 {
+    float: left;
+    color: #f9f9f9;
+    margin-right: 48px;
+    margin-top: 25px;
+    margin-left: 50px;
+    color: #000;
+    font-size: 45px;
+    font-family: 'Patua One', cursive;
+    font-weight: 500px;
+
+
+}
+
+#title_sdgs h2 {
+    color: #000;
+    font-size: 90px;
+    font-style: normal;
+    font-weight: 400;
+    padding-top: 80px;
+    font-family: 'Noto Sans JP', sans-serif;
+    background: linear-gradient(transparent 70%, #06DC94 0%);
+    width: 81%;
+
+}
+
+#title_goals_main h2 {
+    color: #000;
+    font-size: 90px;
+    font-style: normal;
+    font-weight: 400;
+    padding-top: 80px;
+    font-family: 'Noto Sans JP', sans-serif;
+    background: linear-gradient(transparent 70%, #06DC94 0%);
+    width: 50%;
+
+}
+
+#title_action h2 {
+    color: #000;
+    font-size: 90px;
+    font-style: normal;
+    font-weight: 400;
+    padding-top: 80px;
+    font-family: 'Noto Sans JP', sans-serif;
+    background: linear-gradient(transparent 70%, #06DC94 0%);
+    width: 57%;
+
+}
+
+#title_interview h2 {
+    color: #000;
+    font-size: 90px;
+    font-style: normal;
+    font-weight: 400;
+    padding-top: 80px;
+    font-family: 'Noto Sans JP', sans-serif;
+    background: linear-gradient(transparent 70%, #06DC94 0%);
+    width: 70%;
+
+}
+
+p {
+    margin-top: 30px;
+    color: #000;
+    font-size: 20px;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 50px;
+    letter-spacing: 3px;
+    margin-bottom: 80px;
+}
+
+ul li a:hover {
+    color: #06DC94;
+}
+
+#introduction {
+    text-align: center;
+    text-decoration: bold;
+    font-size: 25px;
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+
+#section_whatsdgs {
+    padding-bottom: 80px;
+}
+
+#section_goal {}
+
+#section_action {}
+
+#section_interview {}
+
+.btntextchange {
+    /*テキストの基点とするためrelativeを指定*/
+    position: relative;
+    /*ボタンの形状*/
+    border: 1px solid #000;
+    border-radius: 25px;
+    min-width: 210px;
+    padding: 20px;
+    text-align: center;
+    display: inline-block;
+    text-decoration: none;
+    color: #000;
+    outline: none;
+    /*アニメーションの指定*/
+    transition: all .2s;
+    margin: 80px;
+    font-family: 'Patua One', cursive;
+    font-size: 20px;
+}
+
+/*hoverした際の変化*/
+.btntextchange:hover {
+    background: #fff;
+    color: #000;
+}
+
+.btntextchange:hover span:nth-child(2) {
+    opacity: 1;
+    /*不透明に*/
+}
+
+#section_2 {
+    background-color: #FFF7D9;
+}
+
+.midashi h2 {
+    text-align: center;
+    font-size: 120px;
+    margin: 20px;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    color: #000;
+    background: linear-gradient(transparent 70%, #06DC94 0%);
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+#second {
+    display: flex;
+    justify-content: space-around;
+    font-size: 30px;
+    padding-right: 85px;
+    padding-left: 85px;
+}
+
+#second li {
+    list-style-type: none;
+    width: 190px;
+    border-radius: 60px;
+    border: 4px solid #000;
+    text-align: center;
+    font-size: 27px;
+    padding-top: 25px;
+    padding-bottom: 30px;
+    font-family: 'Patua One', cursive;
+    color: #000;
+    background-color: #fff;
+
+}
+
+#second li a {
+    text-decoration: none;
+    color: #000;
+}
+
+#second li:hover {
+    background-color: #BEFC51;
+}
+
+.top-banner {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.top-banner li {
+    width: calc(100%/4);
+    /*←画像を横に4つ並べる場合*/
+    padding: 0 5px;
+    /*←画像の左右に5pxの余白を入れる場合*/
+    box-sizing: border-box;
+}
+
+.top-banner li img {
+    max-width: 100%;
+    /*画像のはみだしを防ぐ*/
+    height: auto;
+    /*画像の縦横比を維持 */
+    border: solid 1px #ccc;
+    /*←画像を1pxのグレーの枠線で囲む指定の場合*/
+}
+
+.goals_box1 {
+    width: 387px;
+    height: 1100px;
+    background-color: #fff;
+    border: 3px solid #000;
+    border-radius: 15px;
+    margin: 40px 30px 20px;
+
+}
+
+.goals_box2 {
+    height: 1200px;
+    width: 387px;
+    background-color: #fff;
+    border: 2px solid #000;
+    border-radius: 15px;
+    margin: 40px 30px 20px;
+}
+
+.goals_box3 {
+    height: 1300px;
+    width: 387px;
+    background-color: #fff;
+    border: 2px solid #000;
+    border-radius: 15px;
+    margin: 40px 30px 20px;
+}
+
+.goals_box4 {
+    height: 1400px;
+    width: 387px;
+    background-color: #fff;
+    border: 2px solid #000;
+    border-radius: 15px;
+    margin: 40px 30px 20px;
+}
+
+.goals_title {
+    font-size: 35px;
+    padding: 20px;
+    color: #000;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: 650;
+}
+
+.goals_group_1 {
+    display: flex;
+}
+
+.goals_group_2 {
+    display: flex;
+}
+
+.goals_group_3 {
+    display: flex;
+}
+
+.goals_group_4 {
+    display: flex;
+}
+
+.goals_group_5 {
+    display: flex;
+}
+
+.goals_group_6 {}
+
+.goals_group_7 {}
+
+
+#one {
+    background: linear-gradient(transparent 70%, #D12C29 0%);
+    width: 64%;
+
+}
+
+#two {
+    background: linear-gradient(transparent 70%, #CDA836 0%);
+    width: 55%;
+}
+
+#three {
+    background: linear-gradient(transparent 70%, #439548 0%);
+    width: 55%;
+}
+
+#fourth {
+    background: linear-gradient(transparent 70%, #B22B2F 0%);
+    width: 55%;
+}
+
+#fifth {
+    background: linear-gradient(transparent 70%, #D8422B 0%);
+    width: 64%;
+}
+
+#sixth {
+    background: linear-gradient(transparent 70%, #4BA3D2 0%);
+    width: 73%;
+}
+
+#seventh {
+    background: linear-gradient(transparent 70%, #F1C043 0%);
+    width: 55%;
+}
+
+#eighth {
+    background: linear-gradient(transparent 70%, #8A1F33 0%);
+    width: 46%;
+}
+
+#nineth {
+    background: linear-gradient(transparent 70%, #DC712D 0%);
+    width: 73%;
+}
+
+#tenth {
+    background: linear-gradient(transparent 70%, #C82D78 0%);
+    width: 55%;
+}
+
+#eleventh {
+    background: linear-gradient(transparent 70%, #E9A63D 0%);
+    width: 64%;
+}
+
+#twelveth {
+    background: linear-gradient(transparent 70%, #C69536 0%);
+    width: 46%;
+}
+
+#thirteenth {
+    background: linear-gradient(transparent 70%, #4E773D 0%);
+    width: 64%;
+}
+
+#fourteenth {
+    background: linear-gradient(transparent 70%, #3172B4 0%);
+    width: 60%;
+}
+
+#fifteenth {
+    background: linear-gradient(transparent 70%, #52A549 0%);
+    width: 55%;
+}
+
+#sixteen {
+    background: linear-gradient(transparent 70%, #1E4D83 0%);
+    width: 55%;
+}
+
+#seventeen {
+    background: linear-gradient(transparent 70%, #112F64 0%);
+    width: 82%;
+}
+
+
+span {
+    font-size: 40px;
+}
+
+.p_goals {
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 3px;
+    color: #000;
+    margin: 30px 20px 10px;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: 400;
+}
+
+figure_1 {
+    margin-top: 100px;
+    margin-left: 70px;
+    margin-right: 70px;
+}
+
+
+
+#section_3 {
+    background-color: #FFF7D9;
+}
+
+#third {
+    display: flex;
+    justify-content: space-around;
+    font-size: 30px;
+    padding-right: 85px;
+    padding-left: 85px;
+}
+
+#third li {
+    list-style-type: none;
+    width: 400px;
+    border-radius: 60px;
+    border: 4px solid #000;
+    text-align: center;
+    font-size: 30px;
+    padding-top: 25px;
+    padding-bottom: 30px;
+    font-family: 'Patua One', cursive;
+    color: #000;
+    background-color: #fff;
+
+}
+
+#third li a {
+    text-decoration: none;
+    color: #000;
+}
+
+#third li:hover {
+    background-color: #BEFC51;
+}
+
+.action_box_1{
+    width: 650px;
+    height: 350px;
+    background-color: #fff;
+    border: 3px solid #000;
+    border-radius: 15px;
+}
+
+
+#section_4 {
+    background-color: #FFF7D9;
+}
+
+
+
+
+/*ここからスマホ用*/
+@media all and(max-width:480px) {
+
+    /*メインページ*/
+    #header{
+        height:86px;
+    }
+    
+    
+    main-visual{
+        
+    }
+    
+    header h1{
+        font-size: 30px;
+        text-align:left;
+        margin:2px;
+    }
+    
+    title h2{
+        
+    }
+    
+    p{
+        
+    }
+    
+    
+    
+    
+
+}
