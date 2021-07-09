@@ -7,7 +7,7 @@
     background-color: #FFF7D9;
 }
 
-#header {
+.header {
     background-color: #fff;
     width: 100%;
     height: 100px;
@@ -15,29 +15,35 @@
 
 }
 
-#first {
+.first {
+    position:absolute;
+    right:0;
     overflow: hidden;
+     display:flex;
+    justify-content:right;
+    margin-right:30px;
 }
 
-#first li {
-    float: left;
+.first li {
+    
     list-style-type: none;
-    margin-top: 2px;
+    
+   
     text-align: right;
 }
 
-#first li a {
+.first li a {
     text-decoration: none;
     font-weight: bold;
     color: #000;
     display: block;
-    margin: 40px 60px 0px;
+    margin: 27px 60px 0px;
     font-family: 'Noto Sans JP', sans-serif;
-    background: linear-gradient(transparent 70%, #06DC94 0%);
-    font-size: 25pxs;
+    font-size: 15px;
+    text-align:center;
 }
 
-#first a:hover {
+.first a:hover {
     color: #808080;
 }
 
@@ -59,18 +65,17 @@
     margin: auto;
 }
 
-#header h1 {
+.header h1 {
     float: left;
     color: #f9f9f9;
     margin-right: 48px;
     margin-top: 25px;
-    margin-left: 50px;
+    margin-left: 80px;
     color: #000;
     font-size: 45px;
-    font-family: 'Patua One', cursive;
-    font-weight: 500px;
-
-
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight:1000;
+    
 }
 
 #title_sdgs h2 {
@@ -85,7 +90,7 @@
 
 }
 
-#title_goals_main h2 {
+.title_goals_main h2 {
     color: #000;
     font-size: 90px;
     font-style: normal;
@@ -97,7 +102,7 @@
 
 }
 
-#title_action h2 {
+.title_action h2 {
     color: #000;
     font-size: 90px;
     font-style: normal;
@@ -109,7 +114,7 @@
 
 }
 
-#title_interview h2 {
+.title_interview h2 {
     color: #000;
     font-size: 90px;
     font-style: normal;
@@ -121,6 +126,10 @@
 
 }
 
+.section_title{
+    margin-left:30px;
+}
+
 p {
     margin-top: 30px;
     color: #000;
@@ -130,8 +139,25 @@ p {
     font-weight: 800;
     line-height: 50px;
     letter-spacing: 3px;
-    margin-bottom: 80px;
+    margin-bottom: 40px;
 }
+
+span {
+    font-size: 30px;
+}
+
+
+
+.menu{
+    font-size: 23px;;
+}
+
+
+
+b {
+    font-weight:1000:
+}
+
 
 ul li a:hover {
     color: #06DC94;
@@ -149,11 +175,7 @@ ul li a:hover {
     padding-bottom: 80px;
 }
 
-#section_goal {}
 
-#section_action {}
-
-#section_interview {}
 
 .btntextchange {
     /*テキストの基点とするためrelativeを指定*/
@@ -171,8 +193,9 @@ ul li a:hover {
     /*アニメーションの指定*/
     transition: all .2s;
     margin: 80px;
-    font-family: 'Patua One', cursive;
+    font-family: 'Noto Sans JP', sans-serif;
     font-size: 20px;
+    letter-spacing:7px;
 }
 
 /*hoverした際の変化*/
@@ -190,50 +213,11 @@ ul li a:hover {
     background-color: #FFF7D9;
 }
 
-.midashi h2 {
-    text-align: center;
-    font-size: 120px;
-    margin: 20px;
-    font-family: 'Noto Sans JP', sans-serif;
-    font-weight: 500;
-    font-style: normal;
-    color: #000;
-    background: linear-gradient(transparent 70%, #06DC94 0%);
-    margin-top: 40px;
-    margin-bottom: 40px;
-}
 
-#second {
-    display: flex;
-    justify-content: space-around;
-    font-size: 30px;
-    padding-right: 85px;
-    padding-left: 85px;
-}
 
-#second li {
-    list-style-type: none;
-    width: 190px;
-    border-radius: 60px;
-    border: 4px solid #000;
-    text-align: center;
-    font-size: 27px;
-    padding-top: 25px;
-    padding-bottom: 30px;
-    font-family: 'Patua One', cursive;
-    color: #000;
-    background-color: #fff;
 
-}
 
-#second li a {
-    text-decoration: none;
-    color: #000;
-}
 
-#second li:hover {
-    background-color: #BEFC51;
-}
 
 .top-banner {
     display: flex;
@@ -261,9 +245,9 @@ ul li a:hover {
     width: 387px;
     height: 1100px;
     background-color: #fff;
-    border: 3px solid #000;
+    border: 2px solid #000;
     border-radius: 15px;
-    margin: 40px 30px 20px;
+    margin: 10px 30px 20px;
 
 }
 
@@ -304,6 +288,7 @@ ul li a:hover {
 
 .goals_group_1 {
     display: flex;
+    margin-top:150px;
 }
 
 .goals_group_2 {
@@ -322,9 +307,7 @@ ul li a:hover {
     display: flex;
 }
 
-.goals_group_6 {}
 
-.goals_group_7 {}
 
 
 #one {
@@ -414,9 +397,8 @@ ul li a:hover {
 }
 
 
-span {
-    font-size: 40px;
-}
+
+
 
 .p_goals {
     font-size: 20px;
@@ -436,53 +418,48 @@ figure_1 {
 
 
 
+
+
+
 #section_3 {
     background-color: #FFF7D9;
 }
 
-#third {
-    display: flex;
-    justify-content: space-around;
-    font-size: 30px;
-    padding-right: 85px;
-    padding-left: 85px;
-}
-
-#third li {
-    list-style-type: none;
-    width: 400px;
-    border-radius: 60px;
-    border: 4px solid #000;
-    text-align: center;
-    font-size: 30px;
-    padding-top: 25px;
-    padding-bottom: 30px;
-    font-family: 'Patua One', cursive;
-    color: #000;
-    background-color: #fff;
-
-}
-
-#third li a {
-    text-decoration: none;
-    color: #000;
-}
-
-#third li:hover {
-    background-color: #BEFC51;
-}
 
 .action_box_1{
     width: 650px;
-    height: 350px;
+    height: 400px;
     background-color: #fff;
     border: 3px solid #000;
     border-radius: 15px;
+    margin:30px;
 }
+
+.action_box{
+    height:250px;
+    margin-left:150px;
+    margin-top:20px;
+}
+
+.action_title{
+    margin-top:30px;
+    margin-left:65px;
+    font-size: 25px;
+    font-family: 'Noto Sans JP', sans-serif;
+    
+}
+
+
+
+
 
 
 #section_4 {
     background-color: #FFF7D9;
+}
+
+.interview_question_title{
+    
 }
 
 
@@ -514,6 +491,8 @@ figure_1 {
     p{
         
     }
+    
+
     
     
     
